@@ -1,0 +1,30 @@
+# Build results
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# VS Code files
+.vscode/
+
+# Rider files
+.idea/
+
+# User-specific files
+*.csproj.user
+*.DotSettings
+
+# Toolset plugin DLLs (if copied)
+*.dll
+*.pdb
+*.exe
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+packages/
