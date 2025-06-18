@@ -7,8 +7,8 @@
     <ProjectGuid>{83FF7C9F-B87B-420B-AF95-D87A9538C65E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LDoAQuestMakerPlugin</RootNamespace>
-    <AssemblyName>LDoAQuestMakerPlugin</AssemblyName>
+    <RootNamespace>NWN2AiGeneratorPlugin</RootNamespace>
+    <AssemblyName>NWN2AiGeneratorPlugin</AssemblyName>
     <StartupObject>
     </StartupObject>
     <FileUpgradeFlags>
@@ -19,7 +19,7 @@
     <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>http://localhost/LDoAQuestMakerPlugin/</PublishUrl>
+    <PublishUrl>http://localhost/NWN2AiGeneratorPlugin/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -90,6 +90,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaGenerationRequest.cs" />
+    <Compile Include="AreaGenerator.cs" />
     <Compile Include="AreaGenform.cs">
       <SubType>Form</SubType>
     </Compile>

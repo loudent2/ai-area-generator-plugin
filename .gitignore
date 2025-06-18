@@ -1,4 +1,5 @@
 # Build results
+.vs/
 bin/
 obj/
 *.user
@@ -20,6 +21,8 @@ obj/
 *.dll
 *.pdb
 *.exe
+*.vsidx
+*.sln
 
 # ReSharper
 _ReSharper*/
